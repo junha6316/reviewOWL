@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-graphql = "*"
+flask-graphql-auth = "*"
+graphene = "*"
+sqlalchemy = "*"
+graphene-sqlalchemy = "*"
+google-api-python-client = "*"
+httplib2 = "*"
+oauth2client = "*"
+elasticsearch = "*"
+ipykernel = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"

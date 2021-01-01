@@ -1,0 +1,19 @@
+version: '3'
+services:
+  flask:
+    container_name: reviewOWL_Flask
+    image: "flask:test"
+    ports:
+    - "5000:5000"
+    networks:
+    - backend
+  nginx:
+    container_name: reviewOWL_Nginx
+    image: "nginx:test"
+    ports:
+    - "80:80"
+    networks:
+    - backend
+networks:
+  backend:
+    driver: bridge
