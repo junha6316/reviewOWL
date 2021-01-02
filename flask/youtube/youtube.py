@@ -7,7 +7,6 @@ from oauth2client.tools import argparser
 
 from models import Channel, Playlist, PlaylistItem
 
-DEVELOPER_KEY = 'AIzaSyBUt2uRD7wvPWOm72P6ivTUljGfb-8F6gE'
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 
